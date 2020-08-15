@@ -59,7 +59,7 @@ body{
     /* justify-self: center;
     justify-items: center; */
     grid-template-columns: 65% 35%;
-    grid-template-rows: 200px 300px 400px 400px;
+    grid-template-rows: 200px 250px 400px 400px;
 }
 
 .test{
