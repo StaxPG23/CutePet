@@ -1,0 +1,26 @@
+.gridBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px 200px 100px;
+    grid-column-gap: 10px;
+}
+
+.one{
+    background: url("./image/1.jpg") center;
+    background-size: cover;
+}
+
+.two{
+    background: url("./image/2.jpg") center;
+    background-size: cover;
+}
+
+.one,.two{
+    box-shadow: 4px 5px 4px blueviolet;
+}
+.one{
+    transition: all .5s ease-in-out;
+}
+.one:hover{
+   transform: scale(1.2);
+}
